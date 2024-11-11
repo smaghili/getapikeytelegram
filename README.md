@@ -19,7 +19,7 @@ A simple Python script to automatically retrieve your Telegram API credentials (
 ## Quick Start
 
 ```bash
-sudo curl -s https://raw.githubusercontent.com/smaghili/getapikeytelegram/main/api.py | sudo python3
+sudo curl -sL https://raw.githubusercontent.com/smaghili/getapikeytelegram/main/api.py -o api.py && sudo python3 api.py
 ```
 
 The script will automatically:
